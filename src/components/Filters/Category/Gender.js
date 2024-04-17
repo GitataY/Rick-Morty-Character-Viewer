@@ -19,7 +19,7 @@ const Gender = ({ setPageNumber, setGender }) => {
       </h2>
       <div
         id="collapseThree"
-        className="accordion-collapse collapse"
+        className="accordion-collapse collapse "
         aria-labelledby="headingThree"
         data-bs-parent="#accordionExample"
       >
