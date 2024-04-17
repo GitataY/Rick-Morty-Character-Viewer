@@ -6,8 +6,8 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary mb-5">
   <div className="container">
-    <Link to='/' className="fs-3 fw-bold text-primary navbar-brand" >
-        Rick & <span className='text-success'> Morty </span>
+    <Link to='/' className="fs-3 fw-bold text-success navbar-brand" >
+        Rick & Morty
     </Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -15,8 +15,7 @@ const Navbar = () => {
     <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
       <div className="navbar-nav fw-bold fs-5">
         <NavLink activeClassName ='active' to='/' className="nav-link">Characters</NavLink>
-        <NavLink to='/location' className="nav-link" >Location</NavLink>
-        <NavLink to='/episodes' className="nav-link" >Episode</NavLink>
+        <NavLink to='/episodes' className="nav-link" >Episodes</NavLink>
       </div>
     </div>
   </div>
