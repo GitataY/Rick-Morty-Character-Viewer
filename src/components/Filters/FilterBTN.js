@@ -6,8 +6,8 @@ const FilterBTN = ({name, index, items, task, setPageNumber}) => {
         <style jsx>
             {
                 `
-                .x;checked + label{
-                    background-color : 0b5ed7;
+                .x:checked + label{
+                    background-color : #0b5ed7;
                     color: white;
                 }
                 input[type='radio']{

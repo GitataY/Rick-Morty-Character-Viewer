@@ -31,7 +31,7 @@ const Status = ({ setStatus, setPageNumber }) => {
               name="status"
               task={setStatus}
               setPageNumber={setPageNumber}
-              input={items}
+              items={items}
             />
           ))}
         </div>
