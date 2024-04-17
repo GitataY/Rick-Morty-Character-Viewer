@@ -7,7 +7,7 @@ const FilterBTN = ({ name, index, items, task, setPageNumber }) => {
 
   const labelStyle = {
     cursor: 'pointer', // adds pointer cursor on hover
-    // Add additional styling as needed
+    
   };
 
   return (

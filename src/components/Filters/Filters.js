@@ -17,7 +17,7 @@ const Filters = ({setStatus, setPageNumber, setGender, setSpecies}) => {
       <div className='text-center fw-bold fs-4 mb-2'>Filter</div>
       <div 
       onClick={clear}
-      style={{ cursor: 'pointer'}} className='text-center text-primary text-decoration-underline mb-4'>Clear Filters</div>
+      style={{ cursor: 'pointer'}} className='text-center text-success text-decoration-underline mb-4'>Clear Filters</div>
 
       <div className="accordion" id="accordionExample">
         <Gender
