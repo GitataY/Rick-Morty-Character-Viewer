@@ -11,7 +11,7 @@ const Search = ({setSearch}) => {
           setSearch(e.target.value)
         }}
         placeholder='Search for characters' type='text' className={styles.input}/>
-        <button onClick={e=>e.preventDefault()} className={`${styles.btn} btn btn-success fs-5`}>Search</button>
+        <button onClick={e=>e.preventDefault()} className={`${styles.btn} btn btn-s fs-5`}>Search</button>
     </form>
   )
 }
