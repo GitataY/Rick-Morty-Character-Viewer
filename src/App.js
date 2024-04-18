@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+//import image from './Images/run.jpg'
 
 
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -24,7 +25,7 @@ function App(){
         <Route path='/episodes' element={<Episodes />} />
         <Route path='/episodes/:id' element={<CardDetails />} />
       </Routes>
-    </BrowserRouter>
+    </BrowserRouter> 
   )
 }
 

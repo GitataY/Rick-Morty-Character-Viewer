@@ -5,7 +5,8 @@ import styles from './Search.module.scss';
 
 const Search = ({setSearch}) => {
   return (
-    <form className='d-flex flex-sm-row flex-column align-items-center justify-content-center gap-4 mb-5'>
+    <div className={styles.searchContainer}>
+    <form className={styles.form}>
         <input 
         onChange={e=>{
           setSearch(e.target.value)
@@ -13,6 +14,7 @@ const Search = ({setSearch}) => {
         placeholder='Search for characters' type='text' className={styles.input}/>
         <button onClick={e=>e.preventDefault()} className={`${styles.btn} btn btn-s fs-5`}>Search</button>
     </form>
+    </div>
   )
 }
 
