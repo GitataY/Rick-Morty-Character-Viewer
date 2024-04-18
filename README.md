@@ -15,36 +15,34 @@ This project is a web-based viewer for characters from the popular TV show "Rick
 
 Before setting up the project, ensure you have the following installed:
 
-- Node.js (>= v12.0.0)
-- npm (or Yarn)
+1. Node.js (>= v18.12.1)`
+2. npm (or Yarn)`
 
 ## Installation
 
 To get a local copy up and running, follow these simple steps:
 
-1. Clone the repository:
+Clone the repository:
 
-```bash
-git clone https://github.com/GitataY/Rick-Morty-Character-Viewer.git
-cd rickandmorty
+      git clone https://github.com/GitataY/Rick-Morty-Character-Viewer.git
+    
+      cd rickandmorty
 
 In the project directory, you can run:
 
-### 'npm install'
+      npm install
 
 Install the npm packages
 
-### `npm start`
+      npm start
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The page will reload when you make changes. You may also see any lint errors in the console.
 
-#Acknowledgments
+# Acknowledgments
 
-[React](https://react.dev/)
-[Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+[React](https://react.dev/)\
+[Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/)\
 [Rick & Morty Api](https://rickandmortyapi.com/documentation)
-```
